@@ -1,0 +1,70 @@
+* {
+    font-family: "Roboto", sans-serif; 
+}
+
+h1 {
+    color: yellow;
+    font-size: 22px;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: coral;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: oblique;
+    text-align: center;
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+
+p {
+    color: khaki;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: right;
+    text-decoration: overline;
+    text-transform: lowercase;
+}
+
+.header {
+    background-color: antiquewhite;
+}
+
+.body {
+    background-color: mediumturquoise;
+    padding: 30px;
+    border: saddlebrown groove;  
+}
+
+h1:hover{
+    color: black;
+    font-size: 50px;
+    background-color: aqua;
+}
+
+@media (max-width: 800px) {
+    body{
+        background-color: aquamarine;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 800px){
+    body{
+        background-color: cadetblue;
+    }
+}
+
+@media (max-width: 500px){
+    body{
+        background-color: cadetblue;
+    }    
+}
